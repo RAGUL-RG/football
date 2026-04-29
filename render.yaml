@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: football-player-statistics-api
-    env: node
-    buildCommand: npm install
-    startCommand: npm start
-    plan: free
