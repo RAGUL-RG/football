@@ -7,7 +7,7 @@ app = Flask(__name__)
 # ---------------------------
 # LOAD + DATA CLEANING
 # ---------------------------
-df = pd.read_csv("fifa.csv")
+df = pd.read_csv("FIFA23_official_data.csv")
 
 # Standardize columns
 df.columns = df.columns.str.strip().str.replace(" ", "_")
